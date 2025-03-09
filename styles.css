@@ -52,7 +52,7 @@ h3 {
 
 .image-container img {
     border: 10px solid transparent;
-    border-image: url('path-to-your-red-image.jpg') 30 round; /* Cool border using the red image */
+    border-image: url('path-to-your-red-image.jpg') 30 round; 
     border-radius: 20px;
     max-width: 100%;
     height: auto;
