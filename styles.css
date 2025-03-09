@@ -12,9 +12,9 @@ body {
 
     footer{
     background-color: #00008B; 
-    color: #FFFFFF; 
+    color:#FFA500; 
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 }
 
@@ -23,7 +23,7 @@ body {
 
 header {
     background-color: #00008B; 
-    color: #FFFFFF; 
+    color: #FFA500; 
     text-align: center;
     padding: 20px 0;
 }
