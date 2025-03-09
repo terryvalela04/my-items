@@ -6,14 +6,14 @@ body {
     color: #333;
 }
 
-/* Container */
+
 .container {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Header Styles */
+
 header {
     text-align: center;
     padding: 50px 0;
@@ -21,8 +21,8 @@ header {
     color: white;
 }
 
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
+
+h1, h2, h3, h4, h5, {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px;
     color: #2c3e50;
@@ -44,7 +44,7 @@ h3 {
     letter-spacing: 1px;
 }
 
-/* Image Styles */
+
 .image-container {
     text-align: center;
     margin: 50px 0;
@@ -59,13 +59,12 @@ h3 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Paragraph Styles */
+
 p {
     line-height: 1.6;
     margin-bottom: 20px;
 }
 
-/* Footer Styles */
 footer {
     text-align: center;
     padding: 20px 0;
