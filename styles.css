@@ -1,29 +1,77 @@
 body {
-
-font-family: Arial, sans-serif;
-
-color: #333;
-
-background-color:: #f9f9f9;
-
-margin: 0;
-
-padding: 0;
-
-line-height: 1.6;
-
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
 }
 
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
 header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #282c34;
+    color: white;
+}
 
-font-family:	Arial, sans-serif ;
-  
-background-color:  #4257C1;
-  
-color: white;
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-transform: uppercase;
+}
 
-padding: 20px;
+h1 {
+    font-size: 3em;
+    letter-spacing: 2px;
+}
 
-text-align: center;
+h2 {
+    font-size: 2.5em;
+    letter-spacing: 1.5px;
+}
 
+h3 {
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+
+/* Image Styles */
+.image-container {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.image-container img {
+    border: 10px solid transparent;
+    border-image: url('path-to-your-red-image.jpg') 30 round; /* Cool border using the red image */
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraph Styles */
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #282c34;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
