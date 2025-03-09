@@ -6,16 +6,7 @@ body {
     background-color: #ADD8E6;
     color: #4169E1;
 
-}
 
-
-
-    footer{
-    background-color: #FFA500; 
-    color:#FFA500; 
-    text-align: center;
-    padding: 10px 0;
-}
 }
 
 
@@ -44,3 +35,9 @@ p {
     padding: 10px;
 }
 
+    footer{
+    background-color: #FFA500; 
+    color:#FFA500; 
+    text-align: center;
+    padding: 10px 0;
+}
