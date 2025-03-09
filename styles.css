@@ -1,15 +1,11 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 20px ;
+    font-family: 'Roboto';
+    margin: 50px ;
     margin-color:#f4f4f9;
     padding: 20px 0 ;
     background-color: #ADD8E6;
     color: #4169E1;
 
-
-img-royal-blue-border {
-    border: 10px solid #4169E1; 
-    padding: 5px;
 }
 
 
@@ -37,7 +33,6 @@ h1, h2, h3, h4, h5, {
    color: #FFFFFF; 
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px;
-    text-transform: uppercase;
  margin: 50px 0;
 }
 
