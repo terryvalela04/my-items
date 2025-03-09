@@ -5,16 +5,31 @@ body {
     padding: 20px 0 ;
     background-color: #ADD8E6;
     color: #4169E1;
+
+
+img-royal-blue-border {
+    border: 10px solid #4169E1; 
+    padding: 5px;
+}
+
+
+
+    footer{
+    background-color: #00008B; 
+    color: #FFFFFF; 
+    text-align: center;
+    padding: 20px 0;
+}
 }
 
 
 
 
 header {
-    background-color: #483D8B; 
+    background-color: #00008B; 
     color: #FFFFFF; 
     text-align: center;
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
 
@@ -27,8 +42,8 @@ h1, h2, h3, h4, h5, {
 }
 
 p {
-    color: #000080; /* Navy Blue */
-    background-color: #ADD8E6; /* Light Blue */
+    color: #000080; 
+    background-color: #ADD8E6; 
     line-height: 1.6;
     margin-bottom: 20px;
     padding: 10px;
