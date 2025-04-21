@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-
 <body>
     <h1>Welcome to Our Coffee Menu</h1>
-    <button id="menu-button">click to view menu</button>
-    <div id="menu">
+    <button id="menu-button">View Menu</button>
+    <!-- Box-like Container for All Items -->
+    <div id="menu-container" style="border: 2px solid black; padding: 10px; margin-top: 10px;">
         <div>
             <img src="https://github.com/terryvalela04/assignment/blob/main/final%20espresso.copy.jpg?raw=true" alt="OG Espresso">
             <p>Bold, Strong</p>
@@ -41,9 +41,10 @@
             <p>P16.30</p>
         </div>
     </div>
+
     <script>
         const menuButton = document.getElementById('menu-button');
-        const menuContainer = document.getElementById('menu');
+        const menuContainer = document.getElementById('menu-container');
         menuButton.addEventListener('click', function() {
             if (menuContainer.style.display === 'none' || menuContainer.style.display === '') {
                 menuContainer.style.display = 'block'; // Show menu
@@ -54,3 +55,5 @@
     </script>
 </body>
 </html>
+
+ 
