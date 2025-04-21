@@ -1,59 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <body>
-    <h1>Welcome to Our Coffee Menu</h1>
-    <button id="menu-button">View Menu</button>
-    <!-- Box-like Container for All Items -->
-    <div id="menu-container" style="border: 2px solid black; padding: 10px; margin-top: 10px;">
-        <div>
-            <img src="https://github.com/terryvalela04/assignment/blob/main/final%20espresso.copy.jpg?raw=true" alt="OG Espresso">
-            <p>Bold, Strong</p>
-            <p>P10.00</p>
+    <div class="menu-container">
+        <div class="menu-item">
+            <img src="coffee.jpg" alt="Coffee">
+            <div class="description">Bold, Strong</div>
+            <div class="price">P19.00</div>
         </div>
-        <div>
-            <img src="https://github.com/terryvalela04/assignment/blob/main/iced%20espresso%20og%20og.jpg?raw=true" alt="Espresso on the Rocks">
-            <p>Espresso, Ice Added</p>
-            <p>P10.50</p>
+        <div class="menu-item">
+            <img src="espresso.jpg" alt="Espresso">
+            <div class="description">Espresso, Ice Added</div>
+            <div class="price">P19.50</div>
         </div>
-        <div>
-            <img src="https://raw.githubusercontent.com/terryvalela04/assignment/refs/heads/main/MOCHA%20MOCHA.webp" alt="Mocha Express">
-            <p>Hot or Cold, Foam, Steamed Milk, Chocolate Syrup or Cocoa Powder, Whipped Cream</p>
-            <p>P11.80</p>
-        </div>
-        <div>
-            <img src="https://github.com/terryvalela04/assignment/blob/main/cappucino121.jpg?raw=true" alt="Classic Cappuccino">
-            <p>Steamed Milk, Equal Amounts of Espresso, Foamy Milk</p>
-            <p>P12.50</p>
-        </div>
-        <div>
-            <img src="https://github.com/terryvalela04/assignment/blob/main/nitro%20cofeee56544cioy.jpg?raw=true" alt="Nitro Coffee">
-            <p>Cold Brewed, Charged with Nitrogen</p>
-            <p>P17.90</p>
-        </div>
-        <div>
-            <img src="https://github.com/terryvalela04/assignment/blob/main/;latte7.jpg?raw=true" alt="Club Latte">
-            <p>Shots of Espresso, Thin Foamy Frothed Milk, Steamed Milk</p>
-            <p>P13.50</p>
-        </div>
-        <div>
-            <img src="https://github.com/terryvalela04/assignment/blob/main/caramel.jpg?raw=true" alt="Macchiato Caramel">
-            <p>Espresso, Steamed Milk, Vanilla Syrup, Caramel Drizzle</p>
-            <p>P16.30</p>
+        <div class="menu-item">
+            <img src="beverage.jpg" alt="Beverage">
+            <div class="description">Hot or Cold, Foam, Steamed Milk, Chocolate Syrup or Cocoa Powder, Whipped Cream</div>
+            <div class="price">P19.50</div>
         </div>
     </div>
-
-    <script>
-        const menuButton = document.getElementById('menu-button');
-        const menuContainer = document.getElementById('menu-container');
-        menuButton.addEventListener('click', function() {
-            if (menuContainer.style.display === 'none' || menuContainer.style.display === '') {
-                menuContainer.style.display = 'block'; // Show menu
-            } else {
-                menuContainer.style.display = 'none'; // Hide menu
-            }
-        });
-    </script>
 </body>
 </html>
 
- 
