@@ -2,23 +2,44 @@
 <html>
 
 <body>
-    <div class="menu-container">
+    <h1>Welcome to Our Coffee Menu</h1>
+    <button id="menu-button">View Menu</button>
+    <div class="menu-container" id="menu">
         <div class="menu-item">
-            <img src="coffee.jpg" alt="Coffee">
-            <div class="description">Bold, Strong</div>
-            <div class="price">P19.00</div>
+            <img src="https://github.com/terryvalela04/assignment/blob/main/final%20espresso.copy.jpg?raw=true" alt="OG Espresso">
+            <div class="details">
+                <div class="description">Bold, Strong</div>
+                <div class="price">P10.00</div>
+            </div>
         </div>
         <div class="menu-item">
-            <img src="espresso.jpg" alt="Espresso">
-            <div class="description">Espresso, Ice Added</div>
-            <div class="price">P19.50</div>
+            <img src="https://github.com/terryvalela04/assignment/blob/main/iced%20espresso%20og%20og.jpg?raw=true" alt="Espresso on the Rocks">
+            <div class="details">
+                <div class="description">Espresso, Ice Added</div>
+                <div class="price">P10.50</div>
+            </div>
         </div>
         <div class="menu-item">
-            <img src="beverage.jpg" alt="Beverage">
-            <div class="description">Hot or Cold, Foam, Steamed Milk, Chocolate Syrup or Cocoa Powder, Whipped Cream</div>
-            <div class="price">P19.50</div>
+            <img src="https://raw.githubusercontent.com/terryvalela04/assignment/refs/heads/main/MOCHA%20MOCHA.webp" alt="Mocha Express">
+            <div class="details">
+                <div class="description">Hot or Cold, Foam, Steamed Milk, Chocolate Syrup or Cocoa Powder, Whipped Cream</div>
+                <div class="price">P11.80</div>
+            </div>
         </div>
+        <!-- Add more menu items here -->
     </div>
+
+    <script>
+        const menuButton = document.getElementById('menu-button');
+        const menuContainer = document.getElementById('menu');
+        menuButton.addEventListener('click', function() {
+            if (menuContainer.style.display === 'none' || menuContainer.style.display === '') {
+                menuContainer.style.display = 'block'; // Show menu
+            } else {
+                menuContainer.style.display = 'none'; // Hide menu
+            }
+        });
+    </script>
 </body>
 </html>
 
