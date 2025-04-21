@@ -1,89 +1,103 @@
+
+
+
+
+ 
+
+
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>About Me</title>
-
-
-  
-<link rel="stylesheet" href="styles.css"> 
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Coffee Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+        #menu-button {
+            padding: 12px 20px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .menu-container {
+            display: none; /* Menu is hidden by default */
+            margin-top: 20px;
+            border: 2px solid #ccc;
+            padding: 15px;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        .menu-item {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        .menu-item img {
+            max-width: 120px;
+            max-height: 120px;
+            border-radius: 5px;
+            margin-right: 15px;
+        }
+        .menu-item .details {
+            font-size: 14px;
+        }
+        .menu-item .details .description {
+            color: #555;
+        }
+        .menu-item .details .price {
+            font-weight: bold;
+            color: #000;
+            margin-top: 5px;
+        }
+    </style>
 </head>
-
 <body>
+    <h1>Welcome to Our Coffee Menu</h1>
+    <button id="menu-button">View Menu</button>
+    <div class="menu-container" id="menu">
+        <div class="menu-item">
+            <img src="https://github.com/terryvalela04/assignment/blob/main/final%20espresso.copy.jpg?raw=true" alt="OG Espresso">
+            <div class="details">
+                <div class="description">Bold, Strong</div>
+                <div class="price">P10.00</div>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="https://github.com/terryvalela04/assignment/blob/main/iced%20espresso%20og%20og.jpg?raw=true" alt="Espresso on the Rocks">
+            <div class="details">
+                <div class="description">Espresso, Ice Added</div>
+                <div class="price">P10.50</div>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="https://raw.githubusercontent.com/terryvalela04/assignment/refs/heads/main/MOCHA%20MOCHA.webp" alt="Mocha Express">
+            <div class="details">
+                <div class="description">Hot or Cold, Foam, Steamed Milk, Chocolate Syrup or Cocoa Powder, Whipped Cream</div>
+                <div class="price">P11.80</div>
+            </div>
+        </div>
+        <!-- Add more menu items here -->
+    </div>
 
-<header>
-
-<h1>About Me</h1>
-
-<nav>
-
-<a href="index.html">Home</a> |
-
-<a href="about.html">About</a> |
-
-<a href="contact.html">Contact</a>
-
-
-
-</header>
-
-
-
-</nav>
-  
-
-<h3> Introduction on WHO IS TERRY </h3>
-  
-<p> i'm  a young nigga of 20 yrs old. I currently reside in the trenches of Rasesa (The Kasi) with the family. .</p>
-
-
-  <p> Here is a pic of me and the gang 
-
-
-
-
- <img src="https://github.com/terryvalela04/my-items/blob/main/Lautaro-Martinez-Inter-Serie-A-trophy.jpg?raw=true">   
-
-  
-<h4> Professional Interests</h4>
-
-<p> I currently go to BAC (Botswana Accountancy College) ,located in both Gaborone and Francistown , BOTSWANA.
-I am pursuing a degree in BSC HONS IN APPLIED BUSINESS COMPUTING .
-The course shortly talks about using tehnological developments (software mainly) to solve real life problems in the Business industry .
-Graduates are equipped with skills to both begin and manage a business enterprise and tech skills such as coding , systems development, computer technology just to name a few of the modules that make up the course .
-I swayed towards the course because i did both Commerce and Computer Studies at a senior level so i had a background of both.
-I also felt like the course grants me practically the best of both worlds as Technology and Business as sectors are one of the growing and leading sectors .
-
-
-<h5> Hobbies and Social Life</h5>  
-
-<p> I usually play video games such as Call of Duty , FC24 , E-Football , Red dead redemption and Mortal Kombat just to name a few .
-I use them as a form of recreation more especially after a long week just to unwind a bit . Social wise  i sometimes meetup 
-with a few close friends  simply  just to chill out for a few hours . I also periodically visit art galleries or events because i used to 
-do art pieces , portraits in particular but overtime i lost touch with it so i visit these conventions to reconnect in a less hands on approach.Music is a big part of my daily routine . 
-  When i have time especially on semester breaks i can produce my own beats andmake a playlist of my own 
-I have produced Trap and Hip Hop beats  in terms of genres . Its something i am learning  to do using FL STUDIO software .</p>
-  
-
-</main>
-
-
-<footer>
-
-<p>&copy; 2025 TERRY VALELA</p>
-
-</footer>
-
-
-  
+    <script>
+        const menuButton = document.getElementById('menu-button');
+        const menuContainer = document.getElementById('menu');
+        menuButton.addEventListener('click', function() {
+            if (menuContainer.style.display === 'none' || menuContainer.style.display === '') {
+                menuContainer.style.display = 'block'; // Show menu
+            } else {
+                menuContainer.style.display = 'none'; // Hide menu
+            }
+        });
+    </script>
 </body>
-
 </html>
-
